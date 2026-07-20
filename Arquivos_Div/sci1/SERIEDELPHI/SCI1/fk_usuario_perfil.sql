@@ -1,0 +1,2 @@
+ALTER TABLE usuario
+ADD CONSTRAINT fk_usuario_perfil FOREIGN KEY (nivel) REFERENCES PERFIL (id)

@@ -1,0 +1,4 @@
+ALTER TABLE entLivros
+ADD CONSTRAINT fk_entLivros_Livros FOREIGN KEY (id_ISBN) REFERENCES livros(id) ON UPDATE CASCADE,
+ADD CONSTRAINT fk_entLivros_cliFor FOREIGN KEY (id_For) REFERENCES cliFor(id);
+

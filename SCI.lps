@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="SCI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="sci_central.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="menuPrin"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Sci_Central"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="27"/>
+        <CursorPos X="3" Y="42"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="sci_central.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="34" Column="3" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="33" Column="3" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="34" Column="3" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="35" Column="3" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="36" Column="3" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="37" Column="3" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="38" Column="3" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="39" Column="3" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="40" Column="3" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="41" Column="3" TopLine="26"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

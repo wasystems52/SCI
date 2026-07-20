@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2005/05/20 18:32:34.156.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UGrupoContas.pas</Transaction>
+    <Transaction>2005/05/20 18:32:34.171.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UGrupoContas.dfm</Transaction>
+    <Transaction>2005/05/23 10:48:50.078.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\USubgrupoContas.pas</Transaction>
+    <Transaction>2005/05/23 10:48:50.093.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\USubgrupoContas.dfm</Transaction>
+    <Transaction>2005/05/30 19:07:35.921.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UClassesSubgrupo.pas</Transaction>
+    <Transaction>2005/05/30 19:07:35.937.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UClassesSubgrupo.dfm</Transaction>
+    <Transaction>2005/06/01 09:39:17.546.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\Rotinas.pas</Transaction>
+    <Transaction>2005/06/02 20:37:11.531.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UBancos.pas</Transaction>
+    <Transaction>2005/06/02 20:37:11.531.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UBancos.dfm</Transaction>
+    <Transaction>2005/06/03 15:28:14.687.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UOperacoesFinanceiras.pas</Transaction>
+    <Transaction>2005/06/03 15:28:14.703.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UOperacoesFinanceiras.dfm</Transaction>
+    <Transaction>2005/06/07 19:20:18.875.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UAplicacaoFinanceira.pas</Transaction>
+    <Transaction>2005/06/07 19:20:18.875.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UAplicacaoFinanceira.dfm</Transaction>
+    <Transaction>2005/06/13 08:20:04.859.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UResgateAplicacao.pas</Transaction>
+    <Transaction>2005/06/13 08:20:04.859.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UResgateAplicacao.dfm</Transaction>
+    <Transaction>2005/06/17 09:38:32.062.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UContasPagar.pas</Transaction>
+    <Transaction>2005/06/17 09:38:32.062.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UContasPagar.dfm</Transaction>
+    <Transaction>2005/06/18 09:27:08.968.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\ULiquidarCP.pas</Transaction>
+    <Transaction>2005/06/18 09:27:08.968.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\ULiquidarCP.dfm</Transaction>
+    <Transaction>2005/06/20 08:21:19.640.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UControleBancos.pas</Transaction>
+    <Transaction>2005/06/20 08:21:19.640.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UControleBancos.dfm</Transaction>
+    <Transaction>2005/06/20 19:33:59.953.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UBancoCaixa.pas</Transaction>
+    <Transaction>2005/06/20 19:33:59.968.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UBancoCaixa.dfm</Transaction>
+    <Transaction>2005/06/21 13:59:13.859.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UControleCaixa.pas</Transaction>
+    <Transaction>2005/06/21 13:59:13.859.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UControleCaixa.dfm</Transaction>
+    <Transaction>2005/06/21 14:35:31.578.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UCaixaBanco.pas</Transaction>
+    <Transaction>2005/06/21 14:35:31.578.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UCaixaBanco.dfm</Transaction>
+    <Transaction>2005/06/22 14:48:49.890.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\UContasReceber.pas</Transaction>
+    <Transaction>2005/06/22 14:48:49.890.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\UContasReceber.dfm</Transaction>
+    <Transaction>2005/06/22 15:35:21.734.pas,C:\SCIVol3\Unit2.pas=C:\SCIVol3\ULiquidarCR.pas</Transaction>
+    <Transaction>2005/06/22 15:35:21.765.dfm,C:\SCIVol3\Unit2.dfm=C:\SCIVol3\ULiquidarCR.dfm</Transaction>
+    <Transaction>2005/06/22 15:37:11.484.pas,C:\SCIVol3\ULiquidarCR.pas=</Transaction>
+    <Transaction>2005/06/22 15:37:11.484.dfm,C:\SCIVol3\ULiquidarCR.dfm=</Transaction>
+    <Transaction>2005/06/22 15:38:28.718.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\ULiquidarCR.pas</Transaction>
+    <Transaction>2005/06/22 15:38:28.718.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\ULiquidarCR.dfm</Transaction>
+    <Transaction>2005/06/24 09:21:16.890.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UVendas.pas</Transaction>
+    <Transaction>2005/06/24 09:21:16.890.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UVendas.dfm</Transaction>
+    <Transaction>2005/06/24 20:05:23.343.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UDescontoVenda.pas</Transaction>
+    <Transaction>2005/06/24 20:05:23.343.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UDescontoVenda.dfm</Transaction>
+    <Transaction>2005/06/24 20:11:11.406.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UFecharVenda.pas</Transaction>
+    <Transaction>2005/06/24 20:11:11.406.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UFecharVenda.dfm</Transaction>
+    <Transaction>2005/06/24 20:42:38.171.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\USelecionaCliente.pas</Transaction>
+    <Transaction>2005/06/24 20:42:38.171.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\USelecionaCliente.dfm</Transaction>
+    <Transaction>2005/06/27 14:13:55.406.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UFormaPagamento.pas</Transaction>
+    <Transaction>2005/06/27 14:13:55.406.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UFormaPagamento.dfm</Transaction>
+    <Transaction>2005/06/27 14:52:53.500.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UFormasPagtoECF.pas</Transaction>
+    <Transaction>2005/06/27 14:52:53.500.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UFormasPagtoECF.dfm</Transaction>
+    <Transaction>2005/06/28 15:27:43.078.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UBibliotecaTEF.pas</Transaction>
+    <Transaction>2005/06/28 23:45:46.171.pas,C:\SCIVol3\Unit1.pas=C:\SCIVol3\UEmiteDuplicata.pas</Transaction>
+    <Transaction>2005/06/28 23:45:46.171.dfm,C:\SCIVol3\Unit1.dfm=C:\SCIVol3\UEmiteDuplicata.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
