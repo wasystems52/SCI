@@ -38,6 +38,7 @@
         <Filename Value="sci_central.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="menuPrin"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Sci_Central"/>
       </Unit>

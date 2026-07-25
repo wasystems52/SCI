@@ -137,6 +137,7 @@ object menuPrin: TmenuPrin
     808000008000000000800000808000008000000000000000FFFF000000000000
     0080000000000000FFFF0000FFFF800FFFFFC01FFFFFF83FFFFF
   }
+  Menu = MainMenu1
   Position = poScreenCenter
   LCLVersion = '4.8.0.0'
   WindowState = wsMaximized
@@ -273,6 +274,7 @@ object menuPrin: TmenuPrin
     }
   end
   object ActionList1: TActionList
+    Images = ImageList1
     Left = 104
     Top = 16
     object Cad_CliFor: TAction
@@ -318,6 +320,112 @@ object menuPrin: TmenuPrin
       Caption = 'Sair do Programa'
       Hint = 'Sair do Programa SCI'
       ImageIndex = 9
+    end
+    object Cad_VendInt: TAction
+      Category = 'Vendedores'
+      Caption = 'Vendedores Internos'
+      Hint = 'Manutenção do cadastro de vendedores internos'
+      ImageIndex = 4
+    end
+    object Cad_VendExt: TAction
+      Category = 'Vendedores'
+      Caption = 'Vendedores Externos'
+      Hint = 'Manutenção do cadastro de vendedores externos'
+      ImageIndex = 4
+    end
+    object Tab_Ativ: TAction
+      Category = 'Tabelas'
+      Caption = 'Tabelas de Atividades'
+      Hint = 'Manutenção de tabela de atividade'
+      ImageIndex = 5
+    end
+    object Cad_Livro: TAction
+      Category = 'Estoque'
+      Caption = 'Cadastro de Livros'
+      Hint = 'Manutenção Cadastro de Livros'
+      ImageIndex = 10
+      ShortCut = 16451
+    end
+    object Action3: TAction
+      Caption = 'Action3'
+    end
+    object Tab_Categ: TAction
+      Category = 'Tabelas'
+      Caption = 'Tabela de Categorias'
+      Hint = 'Manutenção de tabela de categorias'
+      ImageIndex = 6
+    end
+    object Tab_Ufs: TAction
+      Category = 'Tabelas'
+      Caption = 'Tabela de Unidades Federativas'
+      Hint = 'Manutenção de tabela de Unidade Federativas'
+      ImageIndex = 7
+    end
+    object Action1: TAction
+      Caption = 'Action1'
+    end
+    object Cad_EntLiv: TAction
+      Category = 'Estoque'
+      Caption = 'Entrada de Livros no Estoque'
+      Hint = 'Controle de entradas de livros no estoque'
+      ImageIndex = 11
+      ShortCut = 16453
+    end
+  end
+  object MainMenu1: TMainMenu
+    Images = ImageList1
+    Left = 184
+    Top = 16
+    object MenuItem1: TMenuItem
+      Caption = '&Cadastros'
+      object MenuItem6: TMenuItem
+        Action = Cad_CliFor
+      end
+      object MenuItem7: TMenuItem
+        Action = Cad_Prof
+      end
+      object MenuItem8: TMenuItem
+        Action = Cad_Transp
+      end
+      object MenuItem9: TMenuItem
+        Action = Cad_Autor
+      end
+      object MenuItem10: TMenuItem
+        Action = Cad_Autoria
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Vendedores'
+        object MenuItem15: TMenuItem
+          Caption = 'MenuItem15'
+        end
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Tabela Auxiliares'
+      end
+      object Separator2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem13: TMenuItem
+        Action = Logoff
+      end
+      object MenuItem14: TMenuItem
+        Action = Sair
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = '&Estoque'
+    end
+    object MenuItem3: TMenuItem
+      Caption = '&Relatórios'
+    end
+    object MenuItem4: TMenuItem
+      Caption = '&Utilitários'
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Ferra&mentas'
     end
   end
 end

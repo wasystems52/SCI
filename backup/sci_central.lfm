@@ -137,6 +137,7 @@ object menuPrin: TmenuPrin
     808000008000000000800000808000008000000000000000FFFF000000000000
     0080000000000000FFFF0000FFFF800FFFFFC01FFFFFF83FFFFF
   }
+  Menu = MainMenu1
   Position = poScreenCenter
   LCLVersion = '4.8.0.0'
   WindowState = wsMaximized
@@ -271,5 +272,134 @@ object menuPrin: TmenuPrin
       FE7B537E3506BBCDC9FF41B12A43A47C6FFCDB3EC7D1B4ABE2FF1F5DFEDEFC1F
       9C9EE86F210E8FFD
     }
+  end
+  object ActionList1: TActionList
+    Images = ImageList1
+    Left = 104
+    Top = 16
+    object Cad_CliFor: TAction
+      Category = 'Cadastro'
+      Caption = 'Cliente/Fornecedor'
+      Hint = 'Manutenção de cadastro de clientes e fornecedores'
+      ImageIndex = 0
+      ShortCut = 16451
+    end
+    object Cad_Prof: TAction
+      Category = 'Cadastro'
+      Caption = 'Professores'
+      Hint = 'Manutenção do cadastro de professores'
+      ImageIndex = 1
+      ShortCut = 16464
+    end
+    object Cad_Transp: TAction
+      Category = 'Cadastro'
+      Caption = 'Transportadoras'
+      Hint = 'Manutenção de Cadastro de Transportadoras'
+      ImageIndex = 2
+    end
+    object Cad_Autor: TAction
+      Category = 'Cadastro'
+      Caption = 'Autores'
+      Hint = 'Manutenção do Cadastro de autores'
+      ImageIndex = 3
+      ShortCut = 16449
+    end
+    object Cad_Autoria: TAction
+      Category = 'Cadastro'
+      Caption = 'Autoria'
+      Hint = 'Manutenção do Cadastro de Autoria'
+    end
+    object Logoff: TAction
+      Category = 'Cadastro'
+      Caption = 'Logoff de:'
+      Hint = 'Fazer o logoff du usuario atual'
+      ImageIndex = 8
+    end
+    object Sair: TAction
+      Category = 'Cadastro'
+      Caption = 'Sair do Programa'
+      Hint = 'Sair do Programa SCI'
+      ImageIndex = 9
+    end
+    object Cad_VendInt: TAction
+      Category = 'Vendedores'
+      Caption = 'Vendedores Internos'
+      Hint = 'Manutenção do cadastro de vendedores internos'
+      ImageIndex = 4
+    end
+    object Cad_VendExt: TAction
+      Category = 'Vendedores'
+      Caption = 'Vendedores Externos'
+      Hint = 'Manutenção do cadastro de vendedores externos'
+      ImageIndex = 4
+    end
+    object Tab_Ativ: TAction
+      Category = 'Tabelas'
+      Caption = 'Tabelas de Atividades'
+      Hint = 'Manutenção de tabela de atividade'
+      ImageIndex = 5
+    end
+    object Action2: TAction
+      Caption = 'Action2'
+    end
+    object Action3: TAction
+      Caption = 'Action3'
+    end
+  end
+  object MainMenu1: TMainMenu
+    Images = ImageList1
+    Left = 184
+    Top = 16
+    object MenuItem1: TMenuItem
+      Caption = '&Cadastros'
+      object MenuItem6: TMenuItem
+        Action = Cad_CliFor
+      end
+      object MenuItem7: TMenuItem
+        Action = Cad_Prof
+      end
+      object MenuItem8: TMenuItem
+        Action = Cad_Transp
+      end
+      object MenuItem9: TMenuItem
+        Action = Cad_Autor
+      end
+      object MenuItem10: TMenuItem
+        Action = Cad_Autoria
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Vendedores'
+        object MenuItem15: TMenuItem
+          Caption = 'MenuItem15'
+        end
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Tabela Auxiliares'
+      end
+      object Separator2: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem13: TMenuItem
+        Action = Logoff
+      end
+      object MenuItem14: TMenuItem
+        Action = Sair
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = '&Estoque'
+    end
+    object MenuItem3: TMenuItem
+      Caption = '&Relatórios'
+    end
+    object MenuItem4: TMenuItem
+      Caption = '&Utilitários'
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Ferra&mentas'
+    end
   end
 end

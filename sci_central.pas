@@ -5,13 +5,41 @@ unit Sci_Central;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ActnList;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ActnList,
+  Menus;
 
 type
 
   { TmenuPrin }
 
   TmenuPrin = class(TForm)
+    Action1: TAction;
+    Cad_EntLiv: TAction;
+    Tab_Ufs: TAction;
+    Tab_Categ: TAction;
+    Tab_Ativ: TAction;
+    Cad_Livro: TAction;
+    Action3: TAction;
+    Cad_VendExt: TAction;
+    Cad_VendInt: TAction;
+    MainMenu1: TMainMenu;
+    MenuItem1: TMenuItem;
+    MenuItem10: TMenuItem;
+    MenuItem11: TMenuItem;
+    MenuItem12: TMenuItem;
+    MenuItem13: TMenuItem;
+    MenuItem14: TMenuItem;
+    MenuItem15: TMenuItem;
+    Separator2: TMenuItem;
+    Separator1: TMenuItem;
+    MenuItem2: TMenuItem;
+    MenuItem3: TMenuItem;
+    MenuItem4: TMenuItem;
+    MenuItem5: TMenuItem;
+    MenuItem6: TMenuItem;
+    MenuItem7: TMenuItem;
+    MenuItem8: TMenuItem;
+    MenuItem9: TMenuItem;
     Sair: TAction;
     Logoff: TAction;
     Cad_Autoria: TAction;
