@@ -6,20 +6,38 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ActnList,
-  Menus;
+  Menus, Process, frmCalendario;
 
 type
 
   { TmenuPrin }
 
   TmenuPrin = class(TForm)
-    Action1: TAction;
+    MenuItem26: TMenuItem;
+    MenuItem27: TMenuItem;
+    MenuItem28: TMenuItem;
+    Ut_Explorer: TAction;
+    Ut_IExplorer: TAction;
+    Ft_Perfil: TAction;
+    Ft_Usuario: TAction;
+    MenuItem16: TMenuItem;
+    MenuItem17: TMenuItem;
+    MenuItem18: TMenuItem;
+    MenuItem19: TMenuItem;
+    MenuItem20: TMenuItem;
+    MenuItem21: TMenuItem;
+    MenuItem22: TMenuItem;
+    MenuItem23: TMenuItem;
+    MenuItem24: TMenuItem;
+    MenuItem25: TMenuItem;
+    Ut_Calend: TAction;
+    Ut_Calc: TAction;
     Cad_EntLiv: TAction;
     Tab_Ufs: TAction;
     Tab_Categ: TAction;
     Tab_Ativ: TAction;
     Cad_Livro: TAction;
-    Action3: TAction;
+    Ut_BlocNot: TAction;
     Cad_VendExt: TAction;
     Cad_VendInt: TAction;
     MainMenu1: TMainMenu;
@@ -50,6 +68,11 @@ type
     ActionList1: TActionList;
     ImageList1: TImageList;
     procedure Image1Click(Sender: TObject);
+    procedure Ut_BlocNotExecute(Sender: TObject);
+    procedure Ut_CalcExecute(Sender: TObject);
+    procedure Ut_CalendExecute(Sender: TObject);
+    procedure Ut_ExplorerExecute(Sender: TObject);
+    procedure Ut_IExplorerExecute(Sender: TObject);
   private
 
   public
@@ -66,9 +89,92 @@ implementation
 { TmenuPrin }
 
 procedure TmenuPrin.Image1Click(Sender: TObject);
+var
+  Processo: TProcess;
 begin
+  Processo:=TProcess.Create(nil);
+  try
+    Processo.Executable:= 'C:\Windows\notepad.exe';
+    Processo.Options := [poNoConsole];
+    Processo.Execute;
+  finally
+    Processo.Free;
+  end;
 
 end;
+
+procedure TmenuPrin.Ut_BlocNotExecute(Sender: TObject);
+var
+  Processo: TProcess;
+begin
+  Processo:=TProcess.Create(nil);
+  try
+    Processo.Executable:= 'C:\Windows\notepad.exe';
+    Processo.Options := [poNoConsole];
+    Processo.Execute;
+  finally
+    Processo.Free;
+  end;
+
+end;
+
+procedure TmenuPrin.Ut_CalcExecute(Sender: TObject);
+var
+  Processo: TProcess;
+begin
+  Processo:=TProcess.Create(nil);
+  try
+    Processo.Executable:= 'C:\Windows\System32\calc.exe';
+    Processo.Options := [poNoConsole];
+    Processo.Execute;
+  finally
+    Processo.Free;
+  end;
+
+end;
+
+procedure TmenuPrin.Ut_CalendExecute(Sender: TObject);
+begin
+  // Correção: Adicionado o 'T' antes de frmcalendario (se o nome da classe for Tfrmcalendario)
+  Application.CreateForm(TCalendario, Calendario);
+  try
+    calendario.ShowModal;
+  finally
+    calendario.Free;
+    calendario := nil;
+  end;
+end;
+
+
+procedure TmenuPrin.Ut_ExplorerExecute(Sender: TObject);
+var
+  Processo: TProcess;
+begin
+  Processo:=TProcess.Create(nil);
+  try
+    Processo.Executable:= 'C:\Windows\explorer.exe';
+    Processo.Options := [poNoConsole];
+    Processo.Execute;
+  finally
+    Processo.Free;
+  end;
+end;
+
+procedure TmenuPrin.Ut_IExplorerExecute(Sender: TObject);
+var
+  Processo: TProcess;
+begin
+  Processo:=TProcess.Create(nil);
+  try
+    Processo.Executable:= 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe' ;
+    Processo.Options := [poNoConsole];
+    Processo.Execute;
+  finally
+    Processo.Free;
+  end;
+
+end;
+
 
 end.
 

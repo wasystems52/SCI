@@ -26,6 +26,12 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="DateTimeCtrlsDsgn"/>
+      </Item>
+      <Item>
+        <PackageName Value="DateTimeCtrls"/>
+      </Item>
+      <Item>
         <PackageName Value="LCL"/>
       </Item>
     </RequiredPackages>
@@ -41,6 +47,13 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Sci_Central"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmcalendario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Calendario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
   </ProjectOptions>

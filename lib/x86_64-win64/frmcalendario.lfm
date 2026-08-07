@@ -1,0 +1,28 @@
+object Calendario: TCalendario
+  Left = 257
+  Height = 437
+  Top = 250
+  Width = 703
+  Align = alClient
+  Caption = 'Calendário'
+  ClientHeight = 437
+  ClientWidth = 703
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -11
+  Font.Name = 'Arial Narrow'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  OnActivate = FormActivate
+  object Calendar1: TCalendar
+    Left = 0
+    Height = 160
+    Top = 0
+    Width = 247
+    Align = alClient
+    DateTime = 46240
+    DisplaySettings = [dsShowHeadings, dsShowDayNames, dsNoMonthChange, dsShowWeekNumbers]
+    TabOrder = 0
+  end
+end

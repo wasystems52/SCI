@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, Sci_Central
+  Forms, Sci_Central, frmcalendario, datetimectrls
   { you can add units after this };
 
 {$R *.res}
@@ -23,6 +23,7 @@ begin
   {$POP}
   Application.Initialize;
   Application.CreateForm(TmenuPrin, menuPrin);
+  Application.CreateForm(TCalendario, Calendario);
   Application.Run;
 end.
 
