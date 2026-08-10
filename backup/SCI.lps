@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="53"/>
       </Unit>
       <Unit>
         <Filename Value="sci_central.pas"/>
@@ -21,8 +21,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Sci_Central"/>
-        <CursorPos X="27" Y="9"/>
-        <UsageCount Value="48"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="130"/>
+        <CursorPos X="89" Y="133"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -32,36 +34,24 @@
         <ComponentName Value="Calendario"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="20"/>
-        <CursorPos X="26" Y="36"/>
-        <UsageCount Value="23"/>
+        <TopLine Value="16"/>
+        <CursorPos X="5" Y="35"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\calendar.pp"/>
+        <UnitName Value="Calendar"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="243"/>
+        <CursorPos X="27" Y="262"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="81" Column="3" TopLine="62"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="82" Column="3" TopLine="63"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="83" Column="3" TopLine="64"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="84" Column="3" TopLine="65"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="85" Column="3" TopLine="66"/>
-      </Position>
       <Position>
         <Filename Value="sci_central.pas"/>
         <Caret Line="86" Column="3" TopLine="67"/>
@@ -161,6 +151,26 @@
       <Position>
         <Filename Value="frmcalendario.pas"/>
         <Caret Line="35" Column="17" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="frmcalendario.pas"/>
+        <Caret Line="36" Column="26" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="frmcalendario.pas"/>
+        <Caret Line="35" Column="25" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="C:\lazarus\lcl\calendar.pp"/>
+        <Caret Line="262" Column="27" TopLine="243"/>
+      </Position>
+      <Position>
+        <Filename Value="frmcalendario.pas"/>
+        <Caret Line="35" Column="25" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="9" Column="37"/>
       </Position>
     </JumpHistory>
     <RunParams>

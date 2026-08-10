@@ -1,9 +1,11 @@
 object menuPrin: TmenuPrin
   Left = 257
-  Height = 296
+  Height = 306
   Top = 250
-  Width = 549
+  Width = 593
   Caption = 'SCI - Sistema Comercial Integrado'
+  ClientHeight = 306
+  ClientWidth = 593
   Color = clAppWorkspace
   Icon.Data = {
     361000000000010002002020000001001800A80C000026000000101000000100
@@ -140,10 +142,154 @@ object menuPrin: TmenuPrin
   Menu = MainMenu1
   Position = poScreenCenter
   LCLVersion = '4.8.0.0'
-  WindowState = wsMaximized
+  OnActivate = FormActivate
+  object ToolBar1: TToolBar
+    Left = 0
+    Height = 30
+    Top = 0
+    Width = 593
+    BorderWidth = 1
+    Caption = 'ToolBar1'
+    Color = clBtnFace
+    DisabledImages = ImageList2
+    EdgeBorders = [ebTop, ebBottom]
+    Images = ImageList1
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    object ToolButton1: TToolButton
+      Left = 1
+      Top = 2
+      Action = Cad_CliFor
+    end
+    object ToolButton2: TToolButton
+      Left = 24
+      Top = 2
+      Action = Cad_Prof
+    end
+    object ToolButton3: TToolButton
+      Left = 47
+      Top = 2
+      Action = Cad_Transp
+    end
+    object ToolButton4: TToolButton
+      Left = 70
+      Top = 2
+      Action = Cad_Autor
+    end
+    object ToolButton5: TToolButton
+      Left = 93
+      Height = 22
+      Top = 2
+      Caption = 'ToolButton5'
+      Style = tbsSeparator
+    end
+    object ToolButton6: TToolButton
+      Left = 101
+      Top = 2
+      Action = Tab_Ativ
+    end
+    object ToolButton7: TToolButton
+      Left = 124
+      Top = 2
+      Action = Tab_Categ
+    end
+    object ToolButton8: TToolButton
+      Left = 147
+      Top = 2
+      Action = Tab_Ufs
+    end
+    object ToolButton9: TToolButton
+      Left = 170
+      Height = 22
+      Top = 2
+      Caption = 'ToolButton9'
+      Style = tbsSeparator
+    end
+    object ToolButton10: TToolButton
+      Left = 178
+      Top = 2
+      Action = Cad_Livro
+    end
+    object ToolButton11: TToolButton
+      Left = 201
+      Top = 2
+      Action = Cad_EntLiv
+    end
+    object ToolButton12: TToolButton
+      Left = 224
+      Height = 22
+      Top = 2
+      Caption = 'ToolButton12'
+      Style = tbsSeparator
+    end
+    object ToolButton13: TToolButton
+      Left = 232
+      Top = 2
+      Action = Ut_Calc
+    end
+    object ToolButton14: TToolButton
+      Left = 255
+      Top = 2
+      Action = Ut_Calend
+    end
+    object ToolButton15: TToolButton
+      Left = 278
+      Top = 2
+      Action = Ut_BlocNot
+    end
+    object ToolButton16: TToolButton
+      Left = 301
+      Top = 2
+      Action = Ut_Explorer
+    end
+    object ToolButton17: TToolButton
+      Left = 324
+      Top = 2
+      Action = Ut_IExplorer
+    end
+    object ToolButton18: TToolButton
+      Left = 347
+      Height = 22
+      Top = 2
+      Caption = 'ToolButton18'
+      Style = tbsSeparator
+    end
+    object ToolButton19: TToolButton
+      Left = 355
+      Top = 2
+      Action = Logoff
+    end
+    object ToolButton20: TToolButton
+      Left = 378
+      Top = 2
+      Action = Sair
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 283
+    Width = 593
+    Panels = <    
+      item
+        Width = 45
+      end    
+      item
+        Width = 220
+      end    
+      item
+        Width = 230
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
   object ImageList1: TImageList
     Left = 16
-    Top = 16
+    Top = 48
     Bitmap = {
       4C7A130000001000000010000000E90F00000000000078DAED9C7B7415D5BDC7
       E7B6AE5ED66DAF3CDAE5224531DCB58A8BAA15897A7D4093EB45414295E2A309
@@ -278,7 +424,7 @@ object menuPrin: TmenuPrin
   object ActionList1: TActionList
     Images = ImageList1
     Left = 104
-    Top = 16
+    Top = 48
     object Cad_CliFor: TAction
       Category = 'Cadastro'
       Caption = 'Cliente/Fornecedor'
@@ -422,7 +568,7 @@ object menuPrin: TmenuPrin
   object MainMenu1: TMainMenu
     Images = ImageList1
     Left = 184
-    Top = 16
+    Top = 48
     object MenuItem1: TMenuItem
       Caption = '&Cadastros'
       object MenuItem6: TMenuItem
@@ -513,5 +659,20 @@ object menuPrin: TmenuPrin
         Action = Ft_Perfil
       end
     end
+  end
+  object ImageList2: TImageList
+    Left = 16
+    Top = 112
+  end
+  object Timer1: TTimer
+    Interval = 60000
+    OnTimer = Timer1Timer
+    Left = 104
+    Top = 120
+  end
+  object ApplicationProperties1: TApplicationProperties
+    OnHint = ApplicationProperties1Hint
+    Left = 192
+    Top = 120
   end
 end

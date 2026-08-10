@@ -6,16 +6,41 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ActnList,
-  Menus, Process, frmCalendario;
+  Menus, ComCtrls, Process, frmCalendario;
 
 type
 
   { TmenuPrin }
 
   TmenuPrin = class(TForm)
+    ApplicationProperties1: TApplicationProperties;
+    ImageList2: TImageList;
     MenuItem26: TMenuItem;
     MenuItem27: TMenuItem;
     MenuItem28: TMenuItem;
+    StatusBar1: TStatusBar;
+    Timer1: TTimer;
+    ToolBar1: TToolBar;
+    ToolButton1: TToolButton;
+    ToolButton10: TToolButton;
+    ToolButton11: TToolButton;
+    ToolButton12: TToolButton;
+    ToolButton13: TToolButton;
+    ToolButton14: TToolButton;
+    ToolButton15: TToolButton;
+    ToolButton16: TToolButton;
+    ToolButton17: TToolButton;
+    ToolButton18: TToolButton;
+    ToolButton19: TToolButton;
+    ToolButton2: TToolButton;
+    ToolButton20: TToolButton;
+    ToolButton3: TToolButton;
+    ToolButton4: TToolButton;
+    ToolButton5: TToolButton;
+    ToolButton6: TToolButton;
+    ToolButton7: TToolButton;
+    ToolButton8: TToolButton;
+    ToolButton9: TToolButton;
     Ut_Explorer: TAction;
     Ut_IExplorer: TAction;
     Ft_Perfil: TAction;
@@ -67,7 +92,10 @@ type
     Cad_CliFor: TAction;
     ActionList1: TActionList;
     ImageList1: TImageList;
+    procedure ApplicationProperties1Hint(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
     procedure Image1Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
     procedure Ut_BlocNotExecute(Sender: TObject);
     procedure Ut_CalcExecute(Sender: TObject);
     procedure Ut_CalendExecute(Sender: TObject);
@@ -101,6 +129,22 @@ begin
     Processo.Free;
   end;
 
+end;
+
+procedure TmenuPrin.Timer1Timer(Sender: TObject);
+begin
+  StatusBar1.panels[0].text := ' '+FormatDateTime(' hh:nn', Now);
+end;
+
+procedure TmenuPrin.FormActivate(Sender: TObject);
+begin
+  StatusBar1.Panels[0].text := ' '+FormatDateTime('hh:nn', Now);
+  StatusBar1.panels[1].text := FormatDateTime(' dddd", "dd" de "mmmm" de "yyyy', Now);
+end;
+
+procedure TmenuPrin.ApplicationProperties1Hint(Sender: TObject);
+begin
+  StatusBar1.Panels[3].text := ' '+application.Hint;
 end;
 
 procedure TmenuPrin.Ut_BlocNotExecute(Sender: TObject);

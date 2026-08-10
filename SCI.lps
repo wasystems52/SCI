@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="53"/>
       </Unit>
       <Unit>
         <Filename Value="sci_central.pas"/>
@@ -21,8 +21,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Sci_Central"/>
-        <CursorPos X="27" Y="9"/>
-        <UsageCount Value="48"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="134"/>
+        <CursorPos X="65" Y="148"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -32,11 +34,10 @@
         <ComponentName Value="Calendario"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="20"/>
+        <TopLine Value="16"/>
         <CursorPos X="5" Y="35"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -46,43 +47,11 @@
         <EditorIndex Value="2"/>
         <TopLine Value="243"/>
         <CursorPos X="27" Y="262"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="85" Column="3" TopLine="66"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="86" Column="3" TopLine="67"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="87" Column="3" TopLine="68"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="89" Column="3" TopLine="70"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="96" Column="26" TopLine="82"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="94" Column="39" TopLine="82"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="97" Column="9" TopLine="85"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="115" Column="23" TopLine="97"/>
-      </Position>
       <Position>
         <Filename Value="sci_central.pas"/>
         <Caret Line="114" Column="7" TopLine="97"/>
@@ -170,6 +139,38 @@
       <Position>
         <Filename Value="frmcalendario.pas"/>
         <Caret Line="35" Column="25" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="9" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="133" Column="89" TopLine="130"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="135" Column="89" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="140" Column="3" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="139" Column="3" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="146" Column="3" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="136" Column="71" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="137" Column="71" TopLine="134"/>
       </Position>
     </JumpHistory>
     <RunParams>
