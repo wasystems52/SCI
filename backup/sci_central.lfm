@@ -664,4 +664,15 @@ object menuPrin: TmenuPrin
     Left = 16
     Top = 112
   end
+  object Timer1: TTimer
+    Interval = 60000
+    OnTimer = Timer1Timer
+    Left = 104
+    Top = 120
+  end
+  object ApplicationProperties1: TApplicationProperties
+    OnHint = ApplicationProperties1Hint
+    Left = 192
+    Top = 120
+  end
 end

@@ -13,11 +13,13 @@ type
   { TmenuPrin }
 
   TmenuPrin = class(TForm)
+    ApplicationProperties1: TApplicationProperties;
     ImageList2: TImageList;
     MenuItem26: TMenuItem;
     MenuItem27: TMenuItem;
     MenuItem28: TMenuItem;
     StatusBar1: TStatusBar;
+    Timer1: TTimer;
     ToolBar1: TToolBar;
     ToolButton1: TToolButton;
     ToolButton10: TToolButton;
@@ -90,8 +92,10 @@ type
     Cad_CliFor: TAction;
     ActionList1: TActionList;
     ImageList1: TImageList;
+    procedure ApplicationProperties1Hint(Sender: TObject);
     procedure FormActivate(Sender: TObject);
     procedure Image1Click(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
     procedure Ut_BlocNotExecute(Sender: TObject);
     procedure Ut_CalcExecute(Sender: TObject);
     procedure Ut_CalendExecute(Sender: TObject);
@@ -127,10 +131,20 @@ begin
 
 end;
 
+procedure TmenuPrin.Timer1Timer(Sender: TObject);
+begin
+  StatusBar1.panels[0].text := ' '+FormatDateTime(' hh:nn', Now);
+end;
+
 procedure TmenuPrin.FormActivate(Sender: TObject);
 begin
   StatusBar1.Panels[0].text := ' '+FormatDateTime('hh:nn', Now);
   StatusBar1.panels[1].text := FormatDateTime(' dddd", "dd" de "mmmm" de "yyyy', Now);
+end;
+
+procedure TmenuPrin.ApplicationProperties1Hint(Sender: TObject);
+begin
+  StatusBar1.Panels[3].text := ' '+application.Hint;
 end;
 
 procedure TmenuPrin.Ut_BlocNotExecute(Sender: TObject);

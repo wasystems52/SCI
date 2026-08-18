@@ -22,8 +22,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Sci_Central"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="130"/>
-        <CursorPos X="89" Y="133"/>
+        <TopLine Value="134"/>
+        <CursorPos X="65" Y="148"/>
         <UsageCount Value="53"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -47,39 +47,11 @@
         <EditorIndex Value="2"/>
         <TopLine Value="243"/>
         <CursorPos X="27" Y="262"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="86" Column="3" TopLine="67"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="87" Column="3" TopLine="68"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="89" Column="3" TopLine="70"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="96" Column="26" TopLine="82"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="94" Column="39" TopLine="82"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="97" Column="9" TopLine="85"/>
-      </Position>
-      <Position>
-        <Filename Value="sci_central.pas"/>
-        <Caret Line="115" Column="23" TopLine="97"/>
-      </Position>
       <Position>
         <Filename Value="sci_central.pas"/>
         <Caret Line="114" Column="7" TopLine="97"/>
@@ -171,6 +143,34 @@
       <Position>
         <Filename Value="sci_central.pas"/>
         <Caret Line="9" Column="37"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="133" Column="89" TopLine="130"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="135" Column="89" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="140" Column="3" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="139" Column="3" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="146" Column="3" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="136" Column="71" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="sci_central.pas"/>
+        <Caret Line="137" Column="71" TopLine="134"/>
       </Position>
     </JumpHistory>
     <RunParams>

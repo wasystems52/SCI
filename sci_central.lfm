@@ -142,6 +142,7 @@ object menuPrin: TmenuPrin
   Menu = MainMenu1
   Position = poScreenCenter
   LCLVersion = '4.8.0.0'
+  WindowState = wsFullScreen
   OnActivate = FormActivate
   object ToolBar1: TToolBar
     Left = 0
